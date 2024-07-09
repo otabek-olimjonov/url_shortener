@@ -163,6 +163,10 @@ Key database operations are handled in the `crud.py` file:
 
 The `tests` directory contains unit tests and integration tests. Ensure to add tests for the new Redis caching and Celery task functionalities.
 
+## Testing
+
+You can find the Swagger in `/docs` route.
+
 ## Deployment
 
 Use the provided `Dockerfile` and `docker-compose.yml` for building and running the application. Ensure that the necessary environment variables are set for PostgreSQL, Redis, and Celery configurations.
